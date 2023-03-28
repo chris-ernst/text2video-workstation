@@ -1,0 +1,18 @@
+conda create --prefix /home/python3.9 python=3.9 ipykernel mamba -y
+
+conda init bash
+source .bashrc
+
+conda activate /home/python3.9/
+
+python -m ipykernel install --user --name=python3.9
+
+pip3 install diffusers transformers accelerate scipy safetensors mediapy accelerate stable_diffusion_videos
+
+apt-get update && apt-get install libgl1
+
+apt install ffmpeg
+
+pip3 install psycopg2-binary pyuploadcare gradio
+
+git clone https://github.com/chris-ernst/text2video-workstation
