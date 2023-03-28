@@ -13,6 +13,6 @@ apt-get update && apt-get install libgl1
 
 apt install ffmpeg
 
-pip3 install psycopg2-binary pyuploadcare gradio
+pip3 install psycopg2-binary pyuploadcare gradio python-dotenv ipywidgets
 
-git clone https://github.com/chris-ernst/text2video-workstation
+# git clone https://github.com/chris-ernst/text2video-workstation .
